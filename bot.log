@@ -1,3 +1,412 @@
-2024-02-29 17:57:58,288 - INFO - logging in using static token
-2024-02-29 17:57:59,238 - INFO - Shard ID None has connected to Gateway (Session ID: ad793c39bfa0f108fa4ec8225bb7101c).
-2024-02-29 17:58:01,274 - INFO - Darkinia#7043 is now running!
+2024-03-01 18:55:59,687 - INFO - logging in using static token
+2024-03-01 18:56:00,589 - INFO - Shard ID None has connected to Gateway (Session ID: e0126dfe6f59a1ffefd447922536289f).
+2024-03-01 18:56:03,064 - INFO - Darkinia#7043 is now running!
+2024-03-01 18:56:07,144 - INFO - logging in using static token
+2024-03-01 18:56:07,905 - INFO - Shard ID None has connected to Gateway (Session ID: 63430bc46639bf9878985e3a8c87475f).
+2024-03-01 18:57:03,063 - INFO - Darkinia#7043 is now running!
+2024-03-01 18:59:03,129 - INFO - logging in using static token
+2024-03-01 18:59:03,965 - INFO - Shard ID None has connected to Gateway (Session ID: b0d4f5aae85c6a84e170e558009671f1).
+2024-03-01 18:59:06,189 - INFO - Darkinia#7043 is now running!
+2024-03-01 19:04:46,092 - INFO - logging in using static token
+2024-03-01 19:04:47,292 - INFO - Shard ID None has connected to Gateway (Session ID: e2d77c07322c0c2ebecd3a7e3cbfb6c7).
+2024-03-01 19:04:49,519 - INFO - Darkinia#7043 is now running!
+2024-03-01 19:20:09,545 - INFO - logging in using static token
+2024-03-01 19:20:10,603 - INFO - Shard ID None has connected to Gateway (Session ID: 57e42649fa599d7c56e54a99d150590f).
+2024-03-01 19:20:12,860 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:30:43,695 - INFO - logging in using static token
+2024-03-01 19:30:44,633 - INFO - Shard ID None has connected to Gateway (Session ID: ff797b7c8a5445af64fc84fe7343bbe7).
+2024-03-01 19:30:46,905 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:30:46,905 - ERROR - Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\bot.py", line 67, in on_ready
+    commands = tree.get_all_commands()
+               ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CommandTree' object has no attribute 'get_all_commands'
+2024-03-01 19:31:25,351 - INFO - logging in using static token
+2024-03-01 19:31:26,238 - INFO - Shard ID None has connected to Gateway (Session ID: 5fff5a2fd13bec3b17b119f0ccdeb8aa).
+2024-03-01 19:31:28,454 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:31:28,454 - INFO - List of commands:
+2024-03-01 19:31:28,454 - ERROR - Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\bot.py", line 69, in on_ready
+    for command_name, command in tree.commands.items():
+                                 ^^^^^^^^^^^^^
+AttributeError: 'CommandTree' object has no attribute 'commands'
+2024-03-01 19:31:50,272 - INFO - logging in using static token
+2024-03-01 19:31:51,060 - INFO - Shard ID None has connected to Gateway (Session ID: 6b6bc488986259a45dac64f6af729259).
+2024-03-01 19:31:59,330 - INFO - logging in using static token
+2024-03-01 19:32:00,155 - INFO - Shard ID None has connected to Gateway (Session ID: ba4cff830432d1f1e0cd1ec9c6893897).
+2024-03-01 19:32:02,403 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:32:02,403 - INFO - List of commands:
+2024-03-01 19:36:46,402 - INFO - logging in using static token
+2024-03-01 19:36:47,378 - INFO - Shard ID None has connected to Gateway (Session ID: fc7f96f314432281aabf81ba4844879e).
+2024-03-01 19:36:49,607 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:36:49,607 - INFO - List of commands:
+2024-03-01 19:37:32,831 - INFO - logging in using static token
+2024-03-01 19:37:33,707 - INFO - Shard ID None has connected to Gateway (Session ID: 173b08d870a1d1ab35f469788c1101ef).
+2024-03-01 19:37:35,958 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:37:35,958 - INFO - List of commands:
+2024-03-01 19:37:35,958 - ERROR - Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\bot.py", line 69, in on_ready
+    logging.info(tree.get_commands().keys())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'keys'
+2024-03-01 19:37:48,603 - INFO - logging in using static token
+2024-03-01 19:37:49,349 - INFO - Shard ID None has connected to Gateway (Session ID: c407db6f710ffb30e844f32c4682754a).
+2024-03-01 19:38:09,772 - INFO - logging in using static token
+2024-03-01 19:38:10,675 - INFO - Shard ID None has connected to Gateway (Session ID: 3fca3bdde2d42de9d3458046790654d2).
+2024-03-01 19:38:43,657 - INFO - logging in using static token
+2024-03-01 19:38:50,751 - INFO - logging in using static token
+2024-03-01 19:38:51,561 - INFO - Shard ID None has connected to Gateway (Session ID: 0468077adb07fc90dbfbcef341b7b07e).
+2024-03-01 19:39:14,466 - INFO - logging in using static token
+2024-03-01 19:39:15,443 - INFO - Shard ID None has connected to Gateway (Session ID: 00115748092b50c9494fea2a9ceea561).
+2024-03-01 19:39:46,497 - INFO - logging in using static token
+2024-03-01 19:39:47,269 - INFO - Shard ID None has connected to Gateway (Session ID: f2e0d3e532b59f64a6807b8ec559a5a3).
+2024-03-01 19:40:01,004 - INFO - logging in using static token
+2024-03-01 19:40:01,976 - INFO - Shard ID None has connected to Gateway (Session ID: b35306463e8091e631703035036f3f60).
+2024-03-01 19:40:04,180 - WARNING - We are being rate limited. PUT https://discord.com/api/v10/applications/1140925390177697792/guilds/884026358387335218/commands responded with 429. Retrying in 1.76 seconds.
+2024-03-01 19:41:05,982 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:41:28,257 - INFO - logging in using static token
+2024-03-01 19:41:29,085 - INFO - Shard ID None has connected to Gateway (Session ID: 4a4e304580af8ad9e00182cc16d4d566).
+2024-03-01 19:41:31,372 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:41:31,372 - INFO - List of commands:
+2024-03-01 19:41:31,372 - INFO - 0
+2024-03-01 19:47:13,503 - INFO - logging in using static token
+2024-03-01 19:47:14,440 - INFO - Shard ID None has connected to Gateway (Session ID: ea41823482fccdf17cf62590a676c7b7).
+2024-03-01 19:47:16,833 - INFO - Darkinator#7043 is now running!
+2024-03-01 19:47:16,833 - INFO - List of commands:
+2024-03-01 19:47:16,833 - INFO - 0
+2024-03-01 19:49:18,650 - ERROR - Ignoring exception in command 'g'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 247, in questionCmd
+    return await inter.response.send_message(embed=guess_reponse(champ_name, common.DB, inter.user.id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\interactions.py", line 786, in send_message
+    params = interaction_message_response_params(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\webhook\async_.py", line 568, in interaction_message_response_params
+    data['embeds'] = [embed.to_dict()]
+                      ^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'to_dict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'g' raised an exception: AttributeError: 'tuple' object has no attribute 'to_dict'
+2024-03-01 20:07:09,990 - INFO - logging in using static token
+2024-03-01 20:07:10,933 - INFO - Shard ID None has connected to Gateway (Session ID: 05a1bbc4e21d1b0f80ecb985cb1ed086).
+2024-03-01 20:07:13,169 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:07:13,169 - INFO - List of commands:
+2024-03-01 20:07:13,169 - INFO - 0
+2024-03-01 20:07:35,918 - ERROR - Ignoring exception in command 'g'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 246, in questionCmd
+    if check_champ_exist(champ_name, common.DB):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check_champ_exist() takes 1 positional argument but 2 were given
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'g' raised an exception: TypeError: check_champ_exist() takes 1 positional argument but 2 were given
+2024-03-01 20:10:12,064 - INFO - logging in using static token
+2024-03-01 20:10:12,820 - INFO - Shard ID None has connected to Gateway (Session ID: e27e56ca730a2ff283dedf9dc7160f84).
+2024-03-01 20:10:15,021 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:10:15,021 - INFO - List of commands:
+2024-03-01 20:10:15,021 - INFO - 0
+2024-03-01 20:10:28,630 - ERROR - Ignoring exception in command 'g'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 247, in questionCmd
+    return await inter.response.send_message(embed=guess_reponse(champ_name, inter.user.id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\interactions.py", line 786, in send_message
+    params = interaction_message_response_params(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\webhook\async_.py", line 568, in interaction_message_response_params
+    data['embeds'] = [embed.to_dict()]
+                      ^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'to_dict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'g' raised an exception: AttributeError: 'tuple' object has no attribute 'to_dict'
+2024-03-01 20:26:51,378 - INFO - logging in using static token
+2024-03-01 20:26:52,152 - INFO - Shard ID None has connected to Gateway (Session ID: 5758de7bff442a10ed647e8323d022cf).
+2024-03-01 20:26:54,396 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:26:54,396 - INFO - List of commands:
+2024-03-01 20:26:54,396 - INFO - 0
+2024-03-01 20:40:33,495 - INFO - logging in using static token
+2024-03-01 20:40:34,468 - INFO - Shard ID None has connected to Gateway (Session ID: 11b7ec59f3a201d40b0e0fc9b3d6e2dd).
+2024-03-01 20:40:36,817 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:40:36,817 - INFO - List of commands:
+2024-03-01 20:40:36,817 - INFO - 0
+2024-03-01 20:42:48,782 - INFO - logging in using static token
+2024-03-01 20:42:49,591 - INFO - Shard ID None has connected to Gateway (Session ID: a19a46c580db0b0d876cfe0bc557597a).
+2024-03-01 20:42:51,839 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:42:51,839 - INFO - List of commands:
+2024-03-01 20:42:51,839 - INFO - 0
+2024-03-01 20:48:36,487 - INFO - logging in using static token
+2024-03-01 20:48:37,705 - INFO - Shard ID None has connected to Gateway (Session ID: 14fbf0443a2539b103314edfba6a673f).
+2024-03-01 20:48:46,104 - INFO - logging in using static token
+2024-03-01 20:48:46,985 - INFO - Shard ID None has connected to Gateway (Session ID: 111709486f22983adc2dcfadb8ec9998).
+2024-03-01 20:48:49,249 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:48:49,249 - INFO - List of commands:
+2024-03-01 20:48:49,249 - INFO - 0
+2024-03-01 20:51:49,657 - ERROR - Ignoring exception in command 'zupdate_champ_url'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 341, in zupdate_champ_urlCmd
+    telecharge_image(url, "pictures", search_name + ".png")
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 58, in telecharge_image
+    response=requests.get(url)
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'test': No scheme supplied. Perhaps you meant https://test?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'zupdate_champ_url' raised an exception: MissingSchema: Invalid URL 'test': No scheme supplied. Perhaps you meant https://test?
+2024-03-01 20:52:42,049 - INFO - logging in using static token
+2024-03-01 20:52:43,008 - INFO - Shard ID None has connected to Gateway (Session ID: 0558d2b662820336bd381d916d65ce93).
+2024-03-01 20:52:45,245 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:52:45,246 - INFO - List of commands:
+2024-03-01 20:52:45,246 - INFO - 0
+2024-03-01 20:53:44,346 - ERROR - Ignoring exception in command 'zchamps'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 297, in zchampsCmd
+    if av_name!="" or av_name[0] != name[0]:
+                      ~~~~~~~^^^
+IndexError: string index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'zchamps' raised an exception: IndexError: string index out of range
+2024-03-01 20:54:58,987 - ERROR - Ignoring exception in command 'zchamps'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 297, in zchampsCmd
+    if av_name!="" or av_name[0] != name[0]:
+                      ~~~~~~~^^^
+IndexError: string index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'zchamps' raised an exception: IndexError: string index out of range
+2024-03-01 20:55:12,387 - INFO - logging in using static token
+2024-03-01 20:55:13,352 - INFO - Shard ID None has connected to Gateway (Session ID: d0b7e0a02a76ac3404d5642dab42c911).
+2024-03-01 20:55:15,615 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:55:15,615 - INFO - List of commands:
+2024-03-01 20:55:15,615 - INFO - 0
+2024-03-01 20:56:18,372 - ERROR - Ignoring exception in command 'zcreate_champ'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 322, in zcreate_champCmd
+    telecharge_image(url,"pictures",search_name+".png")
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 58, in telecharge_image
+    response=requests.get(url)
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'ff': No scheme supplied. Perhaps you meant https://ff?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'zcreate_champ' raised an exception: MissingSchema: Invalid URL 'ff': No scheme supplied. Perhaps you meant https://ff?
+2024-03-01 20:59:05,802 - INFO - logging in using static token
+2024-03-01 20:59:06,767 - INFO - Shard ID None has connected to Gateway (Session ID: e996b007cbc69319686c244c6678d961).
+2024-03-01 20:59:09,059 - INFO - Darkinator#7043 is now running!
+2024-03-01 20:59:09,059 - INFO - List of commands:
+2024-03-01 20:59:09,059 - INFO - 0
+2024-03-01 21:04:02,917 - INFO - logging in using static token
+2024-03-01 21:04:03,721 - INFO - Shard ID None has connected to Gateway (Session ID: ede4e262bd55c486f9366c8e2fcad22f).
+2024-03-01 21:04:05,992 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:04:05,992 - INFO - List of commands:
+2024-03-01 21:04:05,992 - INFO - 0
+2024-03-01 21:06:06,663 - INFO - logging in using static token
+2024-03-01 21:06:07,994 - INFO - Shard ID None has connected to Gateway (Session ID: 61092e30f79073fb6346588f3d2c9400).
+2024-03-01 21:06:10,325 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:06:10,325 - INFO - List of commands:
+2024-03-01 21:06:10,325 - INFO - 0
+2024-03-01 21:07:02,314 - INFO - logging in using static token
+2024-03-01 21:07:03,154 - INFO - Shard ID None has connected to Gateway (Session ID: d804ff6802a71824f4f7ef9791b45945).
+2024-03-01 21:07:05,568 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:07:05,568 - INFO - List of commands:
+2024-03-01 21:07:05,568 - INFO - 0
+2024-03-01 21:07:33,254 - INFO - logging in using static token
+2024-03-01 21:07:34,165 - INFO - Shard ID None has connected to Gateway (Session ID: ce2ca1caa3e3aeeb4cf5630bd2f5cf94).
+2024-03-01 21:07:36,446 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:07:36,446 - INFO - List of commands:
+2024-03-01 21:07:36,446 - INFO - 0
+2024-03-01 21:11:00,876 - INFO - logging in using static token
+2024-03-01 21:11:01,790 - INFO - Shard ID None has connected to Gateway (Session ID: 7893aae52dd29ec60104d4687b7c0ff4).
+2024-03-01 21:11:04,038 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:11:04,038 - INFO - List of commands:
+2024-03-01 21:11:04,038 - INFO - 0
+2024-03-01 21:11:26,803 - INFO - logging in using static token
+2024-03-01 21:11:28,356 - INFO - Shard ID None has connected to Gateway (Session ID: e8bdfe267d6b6b500b4834da5ee9dc6e).
+2024-03-01 21:12:04,049 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:12:04,049 - INFO - List of commands:
+2024-03-01 21:12:04,049 - INFO - 0
+2024-03-01 21:14:40,233 - INFO - logging in using static token
+2024-03-01 21:14:41,221 - INFO - Shard ID None has connected to Gateway (Session ID: e4a27862157636f02715d99dad8b0e16).
+2024-03-01 21:14:43,444 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:14:43,444 - INFO - List of commands:
+2024-03-01 21:14:43,444 - INFO - 0
+2024-03-01 21:15:45,091 - INFO - logging in using static token
+2024-03-01 21:15:45,830 - INFO - Shard ID None has connected to Gateway (Session ID: f0a5b4dbc4d49238e3fa4770132606ee).
+2024-03-01 21:15:48,134 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:15:48,134 - INFO - List of commands:
+2024-03-01 21:15:48,134 - INFO - 0
+2024-03-01 21:15:53,787 - ERROR - Ignoring exception in command 'zchamps'
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 828, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\e2-Club NPC & HFLAN\NPC\Projets\Darkinator\core.py", line 307, in zchampsCmd
+    return await inter.response.send_message(embed=create_embed(title, msg))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.embeds.0.description: Must be 4096 or fewer in length.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\keren\Documents\DSIA4101\DSIA_4101A\Darkinator\Lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'zchamps' raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.embeds.0.description: Must be 4096 or fewer in length.
+2024-03-01 21:16:52,384 - INFO - logging in using static token
+2024-03-01 21:16:53,193 - INFO - Shard ID None has connected to Gateway (Session ID: 9bd128369c3a38ab9ec2c40d1bc71f43).
+2024-03-01 21:16:55,464 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:16:55,464 - INFO - List of commands:
+2024-03-01 21:16:55,464 - INFO - 0
+2024-03-01 21:17:42,338 - INFO - logging in using static token
+2024-03-01 21:17:43,115 - INFO - Shard ID None has connected to Gateway (Session ID: 0c201e164be3a3ce021c7d49376e5b0c).
+2024-03-01 21:17:45,403 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:17:45,403 - INFO - List of commands:
+2024-03-01 21:17:45,403 - INFO - 0
+2024-03-01 21:19:29,150 - INFO - logging in using static token
+2024-03-01 21:19:30,096 - INFO - Shard ID None has connected to Gateway (Session ID: 1f777f3036045fccdc3834c2265836d5).
+2024-03-01 21:19:32,331 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:19:32,331 - INFO - List of commands:
+2024-03-01 21:19:32,331 - INFO - 0
+2024-03-01 21:20:03,995 - INFO - logging in using static token
+2024-03-01 21:20:04,700 - INFO - Shard ID None has connected to Gateway (Session ID: 8a638d3e703fcc73b9f8f5f27c4851c5).
+2024-03-01 21:20:07,065 - INFO - Darkinator#7043 is now running!
+2024-03-01 21:20:07,065 - INFO - List of commands:
+2024-03-01 21:20:07,065 - INFO - 0

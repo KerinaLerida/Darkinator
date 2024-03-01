@@ -18,12 +18,12 @@ class SimpleSQLiteDatabase:
             self.connection.execute(create_users_table_query)
 
     # Users Table
-    def insert_user(self, id_user):
+    def insert_user(self, id_user, name):
         insert_query = '''
-            INSERT INTO users (id,name,points) VALUES (?,"",0)
+            INSERT INTO users (id,name,points) VALUES (?,?,0)
         '''
         with self.connection:
-            self.connection.execute(insert_query, (id_user,))
+            self.connection.execute(insert_query, (id_user,name))
 
     def update_points_by_id(self, ajout, id_user):
         update_query = '''
@@ -56,11 +56,11 @@ class SimpleSQLiteDatabase:
             if result:
                 return str(result[0])
             else:
-                return None  # Ou tout autre indication de l'absence de résultat
+                return None
 
     def get_all_users(self):
         select_all_query = '''
-            SELECT id, name, points
+            SELECT name, points
             FROM users ORDER BY points DESC
         '''
         with self.connection:
