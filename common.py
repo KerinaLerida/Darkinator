@@ -1,4 +1,4 @@
-BOT_TOKEN                       = "METTRE SON TOKEN ICI"
+BOT_TOKEN                       = "METTRE SON TOKEN ICI!"
 SERVER_ID                       = 0
 DEFAULT_CHANNEL_ID              = 0
 ADMIN_ROLE                      = "Bureau"
